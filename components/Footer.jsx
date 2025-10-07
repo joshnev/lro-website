@@ -199,10 +199,8 @@ function Footer() {
                 href="mailto:info@lrocontractors.co.uk"
                 className="text-blue-600 hover:underline"
               >
-                info@lrocontractors.co.uk
+                contact@lrocontractors.com
               </a>
-              <br />
-              Phone: +44 7765 638358
             </p>
           </section>
 
@@ -335,10 +333,8 @@ function Footer() {
                 href="mailto:info@lrocontractors.co.uk"
                 className="text-blue-600 hover:underline"
               >
-                info@lrocontractors.co.uk
+                contact@lrocontractors.com
               </a>
-              <br />
-              Phone: +44 7765 638358
             </p>
           </section>
         </div>
