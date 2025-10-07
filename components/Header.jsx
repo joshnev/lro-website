@@ -37,7 +37,7 @@ export default function Header() {
           <div className="flex-shrink-0 h-full">
             <a href="/" className="block h-full">
               <img
-                src="/temp.png"
+                src="/LRO-header.png"
                 alt="LRO Contractors Logo"
                 className={`h-full w-auto rounded-md object-contain origin-left transform-gpu
                 transition-transform duration-300
