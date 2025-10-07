@@ -1,6 +1,13 @@
 "use client";
 import React, { useState, useMemo, useRef } from "react";
-import { Mail, Phone, Send, User, MessageSquare } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  Send,
+  User,
+  MessageSquare,
+  Briefcase,
+} from "lucide-react";
 
 const isEmail = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v || "");
 
@@ -358,14 +365,26 @@ export function ContactForm() {
 
           {/* Contact Information Separate Cards */}
           <div className="grid grid-cols-1 gap-6 mt-12 sm:grid-cols-2">
-            {/* Call Us */}
             <div className="flex flex-col items-center justify-center p-6 text-center shadow-md backdrop-blur-md bg-white/10 rounded-xl">
               <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-blue-600/20">
-                <Phone size={24} className="text-blue-400" />
+                <Briefcase size={24} className="text-blue-400" />
               </div>
-              <h3 className="mb-2 font-semibold text-white">Call Us</h3>
-              <p className="text-gray-300">+44 7765 638358</p>
-              <p className="text-gray-400">Mon-Fri, 9am-5pm</p>
+
+              <h3 className="mb-2 text-lg font-semibold text-white">
+                Looking for work?
+              </h3>
+
+              <div className="max-w-sm text-left">
+                <p className="text-gray-300">
+                  We’re always happy to connect with skilled tradespeople.
+                </p>
+
+                <p className="mt-2 leading-relaxed text-gray-400">
+                  Reach out using the form above{" "}
+                  <br className="hidden sm:block" />
+                  or email us directly <span className="inline-block">👉</span>
+                </p>
+              </div>
             </div>
 
             {/* Email Us */}
