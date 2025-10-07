@@ -97,8 +97,7 @@ export default function Header() {
             {[
               ["About", "#about"],
               ["Services", "#services"],
-              ["Join Us", "#contact"], // NEW
-              ["Contact", "#contact"],
+              ["Join Us", "#contact"],
             ].map(([label, href]) => (
               <a
                 key={href}
