@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "My Site",
+  title: "LRO Contractors",
   description: "Built with Next.js + Tailwind",
 };
 
