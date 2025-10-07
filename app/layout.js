@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "LRO Contractors",
-  description: "Built with Next.js + Tailwind",
+  description: "UK-based shopfitting and construction specialists.",
 };
 
 export default function RootLayout({ children }) {
