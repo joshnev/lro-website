@@ -125,7 +125,7 @@ export function ContactForm() {
       <div
         className="absolute inset-0 w-full h-full bg-center bg-no-repeat bg-cover"
         style={{
-          backgroundImage: "url('/home-hero.webp')",
+          backgroundImage: "url('/home-hero.png')",
           backgroundSize: "cover",
           filter: "brightness(0.5)",
         }}
