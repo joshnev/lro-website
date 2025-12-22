@@ -3,10 +3,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: "#6366f1", // from Magic Patterns
+        brand: "#6366f1",
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"], // from Magic Patterns
+        sans: ["Inter", "sans-serif"],
       },
     },
   },

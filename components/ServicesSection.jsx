@@ -123,11 +123,10 @@ export default function ServicesSection() {
                 alt="Professionals in a business meeting"
                 loading="lazy"
                 className="
-      absolute inset-0 h-full w-full object-cover
-      object-[30%_85%]    /* mobile: centre hands (left + bottom) */
-      md:object-[35%_80%] /* tablet */
-      lg:object-[40%_75%] /* desktop */
-    "
+                  absolute inset-0 h-full w-full object-cover
+                  object-[30%_85%]    /* mobile: centre hands (left + bottom) */
+                  md:object-[35%_80%] /* tablet */
+                  lg:object-[40%_75%] /* desktop */"
               />
             </div>
 
